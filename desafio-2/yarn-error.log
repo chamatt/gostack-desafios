@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add bcryptjs express jsonwebtoken pg pghstore sequelize yup
+
+PATH: 
+  C:\Users\Matheus\Documents\cmder\bin;C:\Users\Matheus\Documents\cmder\vendor\bin;C:\Users\Matheus\Documents\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Matheus\Documents\cmder\vendor\conemu-maximus5;C:\Users\Matheus\Documents\cmder\vendor\conemu-maximus5\ConEmu;C:\Python37\Scripts\;C:\Python37\;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.6.5\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.6.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\ComposerSetup\bin;C:\Users\Leonardo\Documents\curl\curl-7.59.0-win64-mingw\bin\curl.exe;C:\wamp64\bin\php\php7.1.16;C:\wamp64\bin\mysql\mysql5.7.21;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\PuTTY\;C:\wamp64\bin\mysql\mysql5.7.21\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Matheus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Matheus\Documents\cmder;C:\Program Files\Haskell Platform\8.6.5\mingw\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Program Files\dotnet\;C:\Program Files (x86)\GitExtensions\;C:\Users\Matheus\AppData\Roaming\cabal\bin;C:\Users\Matheus\AppData\Roaming\local\bin;C:\Users\Matheus\AppData\Local\Microsoft\WindowsApps;C:\Users\Matheus\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Users\Matheus\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Matheus\Documents\cmder
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/pghstore: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65167:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:129541:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130513:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:130435:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "desafio-2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
