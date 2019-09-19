@@ -1,4 +1,18 @@
-# Desafio 03. Continuando aplicação
+# Iniciando a aplicação
+
+Instale o docker e o docker-compose, se não tiver instalado.
+
+1. Renomeio o arquivo .env.example para .env, e modifique os valores, se desejar, ou deixe com os valores padrões.
+
+2. Execute `docker-compose up`
+
+3. Na primeira vez que você executar a aplicação, a database ainda não existe, para criá-la, abra uma nova janela do terminal, na pasta do projeto, e execute os seguintes comandos:
+   `yarn createdb`
+   `yarn migrate`
+
+Após isso o projeto já estará funcionando!
+
+# Descrição do Desafio 03. Continuando aplicação
 
 Durante esse desafio vamos aprimorar a aplicação Meetapp que demos início no desafio anterior implementando funcionalidades que aprendemos durante as aulas até agora.
 
