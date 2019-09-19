@@ -5,6 +5,7 @@ import UserController from './app/controllers/UserController';
 import SessionController from './app/controllers/SessionController';
 import FileController from './app/controllers/FileController';
 import authMiddleware from './app/middlewares/auth';
+import MeetupController from './app/controllers/MeetupController';
 
 const routes = new Router();
 
@@ -23,5 +24,9 @@ routes.post(
   upload.single('file'),
   FileController.store
 );
+
+// Meetup
+routes.post('/meetups', authMiddleware, MeetupController.store);
+routes.get('/meetups', authMiddleware, MeetupController.index);
 
 export default routes;
