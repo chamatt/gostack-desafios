@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add await-to-js
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add lodash
 
 PATH: 
   C:\Users\Matheus\Documents\cmder\bin;C:\Users\Matheus\Documents\cmder\vendor\bin;C:\Users\Matheus\Documents\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Matheus\Documents\cmder\vendor\conemu-maximus5;C:\Users\Matheus\Documents\cmder\vendor\conemu-maximus5\ConEmu;C:\Python37\Scripts\;C:\Python37\;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.6.5\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.6.5\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\ProgramData\ComposerSetup\bin;C:\Users\Leonardo\Documents\curl\curl-7.59.0-win64-mingw\bin\curl.exe;C:\wamp64\bin\php\php7.1.16;C:\wamp64\bin\mysql\mysql5.7.21;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\PuTTY\;C:\wamp64\bin\mysql\mysql5.7.21\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Matheus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Matheus\Documents\cmder;C:\Program Files\Haskell Platform\8.6.5\mingw\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Program Files\dotnet\;C:\Program Files (x86)\GitExtensions\;C:\Users\Matheus\AppData\Roaming\cabal\bin;C:\Users\Matheus\AppData\Roaming\local\bin;C:\Users\Matheus\AppData\Local\Microsoft\WindowsApps;C:\Users\Matheus\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Users\Matheus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Matheus\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Matheus\Documents\cmder
@@ -33,6 +33,7 @@ npm manifest:
     "dependencies": {
       "await-to-js": "^2.1.1",
       "bcryptjs": "^2.4.3",
+      "date-fns": "^2.2.1",
       "dotenv": "^8.1.0",
       "express": "^4.17.1",
       "jsonwebtoken": "^8.5.1",
@@ -671,6 +672,11 @@ Lockfile:
     dependencies:
       es5-ext "^0.10.50"
       type "^1.0.1"
+  
+  date-fns@^2.2.1:
+    version "2.2.1"
+    resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.2.1.tgz#b3f79cf56760af106050c686f4c72586a3383ee9"
+    integrity sha512-4V1i5CnTinjBvJpXTq7sDHD4NY6JPcl15112IeSNNLUWQOQ+kIuCvRGOFZMQZNvkadw8F9QTyZxz59rIRU6K+w==
   
   debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
     version "2.6.9"

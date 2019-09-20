@@ -28,5 +28,6 @@ routes.post(
 // Meetup
 routes.post('/meetups', authMiddleware, MeetupController.store);
 routes.get('/meetups', authMiddleware, MeetupController.index);
+routes.delete('/meetups/:meetupId', authMiddleware, MeetupController.delete);
 
 export default routes;
