@@ -12,6 +12,8 @@ Instale o docker e o docker-compose, se não tiver instalado.
 
 Após isso o projeto já estará funcionando!
 
+As tarefas completadas estarão marcadas com :white_check_mark:
+
 # Descrição do Desafio 03. Continuando aplicação
 
 Durante esse desafio vamos aprimorar a aplicação Meetapp que demos início no desafio anterior implementando funcionalidades que aprendemos durante as aulas até agora.
@@ -22,19 +24,19 @@ Abaixo estão descritas as funcionalidades que você deve adicionar em sua aplic
 
 ### Gerenciamento de arquivos
 
-Crie uma rota para upload de arquivos que cadastra em uma tabela o caminho e nome do arquivo e retorna todos dados do arquivo cadastrado.
+Crie uma rota para upload de arquivos que cadastra em uma tabela o caminho e nome do arquivo e retorna todos dados do arquivo cadastrado. :white_check_mark:
 
 ### Gerenciamento de meetups
 
-O usuário pode cadastrar meetups na plataforma com título do meetup, descrição, localização, data e hora e imagem (banner). Todos campos são obrigatórios. Adicione também um campo user_id que armazena o ID do usuário que organiza o evento.
+O usuário pode cadastrar meetups na plataforma com título do meetup, descrição, localização, data e hora e imagem (banner). Todos campos são obrigatórios. Adicione também um campo user_id que armazena o ID do usuário que organiza o evento. :white_check_mark:
 
-Não deve ser possível cadastrar meetups com datas que já passaram.
+Não deve ser possível cadastrar meetups com datas que já passaram. :white_check_mark:
 
-O usuário também deve poder editar todos dados de meetups que ainda não aconteceram e que ele é organizador.
+O usuário também deve poder editar todos dados de meetups que ainda não aconteceram e que ele é organizador. :white_check_mark:
 
-Crie uma rota para listar os meetups que são organizados pelo usuário logado.
+Crie uma rota para listar os meetups que são organizados pelo usuário logado. :white_check_mark:
 
-O usuário deve poder cancelar meetups organizados por ele e que ainda não aconteceram. O cancelamento deve deletar o meetup da base de dados.
+O usuário deve poder cancelar meetups organizados por ele e que ainda não aconteceram. O cancelamento deve deletar o meetup da base de dados. :white_check_mark:
 
 ### Inscrição no meetup
 
