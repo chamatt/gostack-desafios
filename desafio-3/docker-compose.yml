@@ -18,8 +18,16 @@ services:
       - DB_HOST=postgres
       - MONGO_HOST=mongo
       - REDIS_HOST=redis
+      - MAILHOG_HOST=mailhog
     env_file:
       - .env
+
+  mailhog:
+    container_name: meetapp-mailhog
+    image: mailhog/mailhog
+    ports:
+      - '1025:1025'
+      - '8025:8025'
 
   mongo:
     container_name: meetapp-mongo

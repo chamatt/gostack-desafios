@@ -43,4 +43,6 @@ routes.post(
   SubscriptionController.store
 );
 
+routes.get('/subscriptions', authMiddleware, SubscriptionController.index);
+
 export default routes;
