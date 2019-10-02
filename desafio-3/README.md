@@ -40,13 +40,13 @@ O usuário deve poder cancelar meetups organizados por ele e que ainda não acon
 
 ### Inscrição no meetup
 
-O usuário deve poder se inscrever em meetups que não organiza. 
+O usuário deve poder se inscrever em meetups que não organiza. :white_check_mark:
 
-O usuário não pode se inscrever em meetups que já aconteceram.
+O usuário não pode se inscrever em meetups que já aconteceram. :white_check_mark:
 
-O usuário não pode se inscrever no mesmo meetup duas vezes.
+O usuário não pode se inscrever no mesmo meetup duas vezes. :white_check_mark:
 
-O usuário não pode se inscrever em dois meetups que acontecem no mesmo horário.
+O usuário não pode se inscrever em dois meetups que acontecem no mesmo horário. :white_check_mark:
 
 Sempre que um usuário se inscrever no meetup, envie um e-mail ao organizador contendo os dados relacionados ao usuário inscrito. O template do e-mail fica por sua conta :)
 
