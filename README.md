@@ -15,7 +15,7 @@ Enunciado e solução da RocketSeat: https://github.com/Rocketseat/bootcamp-gost
 
 ## Desafio 03. Continuando aplicação (Meetapp)
 
-Minha solução: *em breve*
+Minha solução: https://github.com/chamatt/gostack-desafios/tree/master/desafio-3
 
 Enunciado e solução da RocketSeat: https://github.com/Rocketseat/bootcamp-gostack-desafio-03
 
